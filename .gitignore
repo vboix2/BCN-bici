@@ -1,0 +1,10 @@
+.DS_Store
+Data/.DS_Store
+Data/.ipynb_checkpoints/
+Data/Actualitzacions bicing.ipynb
+Data/BicingUpdate.py
+Data/datasets/
+Data/downloads/
+Data/map/
+Data/tmp/
+images/
