@@ -1,0 +1,18 @@
+{
+  "displayCluster": true,
+  "showFeatureCount": false,
+  "featureCountLabel": "",
+  "summaryLayer": {
+    "fields": [
+      {
+        "type": "SUM",
+        "label": "Carril bici (km)",
+        "field": "longitud_k"
+      }
+    ],
+    "id": "Carril_bici_1320",
+    "name": "Carril bici",
+    "filterField": "districte",
+    "url": "Carril_bici_1320"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "about": {
+    "aboutContent": "<div><font size=\"2\">Autor: Víctor Boix</font></div><div><font size=\"2\"><br /></font></div><div><font size=\"2\">Fonts de dades: <a href=\"https://opendata-ajuntament.barcelona.cat/ca\" target=\"_blank\">Open Data BCN</a></font></div><div><font size=\"2\"><br /></font></div><div><font size=\"2\">Més informació:</font></div><div><ul><li><font size=\"2\"><a href=\"https://ajuntament.barcelona.cat/bicicleta/ca\" target=\"_blank\">Ajuntament de Barcelona: Bicicleta</a></font></li><li><font size=\"2\"><a href=\"https://www.bicing.barcelona/\" target=\"_blank\">Bicing</a></font></li><li><font size=\"2\"><a href=\"https://opendata-ajuntament.barcelona.cat/ca/world-data-viz-challenge-bcn-kobe-2020\" target=\"_blank\">World Data Viz Challenge 2020</a></font></li></ul><div><font size=\"2\"><br />Codi font: <a href=\"https://github.com/vboix2/BCN-bici\" target=\"_blank\">https://github.com/vboix2/BCN-bici</a></font></div><div><font size=\"2\"><br /></font></div><div><font size=\"2\">Contacte: vboix2@uoc.edu</font></div></div>"
+  }
+}

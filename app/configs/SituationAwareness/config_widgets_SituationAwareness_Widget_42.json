@@ -1,0 +1,158 @@
+{
+  "geocodeService": {
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer"
+  },
+  "enableRouting": false,
+  "bufferRange": {
+    "minimum": 0,
+    "_default": 500,
+    "maximum": 1000
+  },
+  "distanceUnits": "meters",
+  "distanceSettings": {
+    "miles": 9035,
+    "kilometers": 9036,
+    "feet": 9002,
+    "meters": 9001,
+    "yards": 9037,
+    "nauticalMiles": 9030
+  },
+  "maxDistance": 300,
+  "defaultZoomLevel": 13,
+  "tabs": [
+    {
+      "label": "",
+      "type": "closest",
+      "layerTitle": "Bicing",
+      "layers": "Bicing_884",
+      "advStat": {
+        "stats": {
+          "fields": [],
+          "tabCount": false,
+          "outFields": [
+            {
+              "value": 0,
+              "expression": "address",
+              "label": "address"
+            },
+            {
+              "value": 0,
+              "expression": "bikes",
+              "label": "bikes"
+            },
+            {
+              "value": 0,
+              "expression": "bikes_mec",
+              "label": "bikes_mec"
+            }
+          ]
+        },
+        "analysisSummaryForReport": true,
+        "PopUpSummaryForReport": true
+      }
+    },
+    {
+      "label": "",
+      "type": "closest",
+      "layerTitle": "Serveis",
+      "layers": "Serveis_1266",
+      "advStat": {
+        "stats": {
+          "fields": [],
+          "tabCount": false,
+          "outFields": [
+            {
+              "value": 0,
+              "expression": "name",
+              "label": "name"
+            },
+            {
+              "value": 0,
+              "expression": "address",
+              "label": "address"
+            },
+            {
+              "value": 0,
+              "expression": "web",
+              "label": "web"
+            }
+          ]
+        },
+        "analysisSummaryForReport": true,
+        "PopUpSummaryForReport": true
+      }
+    },
+    {
+      "label": "",
+      "type": "closest",
+      "layerTitle": "Aparcament per a bicicletes",
+      "layers": "Aparcament_per_a_bicicletes_1667",
+      "advStat": {
+        "stats": {
+          "fields": [],
+          "tabCount": false,
+          "outFields": [
+            {
+              "value": 0,
+              "expression": "name",
+              "label": "name"
+            },
+            {
+              "value": 0,
+              "expression": "address",
+              "label": "address"
+            },
+            {
+              "value": 0,
+              "expression": "web",
+              "label": "web"
+            }
+          ]
+        },
+        "analysisSummaryForReport": true,
+        "PopUpSummaryForReport": true
+      }
+    },
+    {
+      "label": "Punts d'ancoratge",
+      "type": "closest",
+      "layerTitle": "Punts ancoratge",
+      "layers": "Punts_ancoratge_7778",
+      "advStat": {
+        "stats": {
+          "fields": [],
+          "tabCount": false,
+          "outFields": [
+            {
+              "value": 0,
+              "expression": "address",
+              "label": "address"
+            }
+          ]
+        },
+        "analysisSummaryForReport": true,
+        "PopUpSummaryForReport": true
+      }
+    }
+  ],
+  "summaryDisplayEnabled": false,
+  "exportFieldsOptionForCSV": "allFields",
+  "incidentLabel": "Localització",
+  "locateIncidentLabel": "Indica una posició al mapa",
+  "bufferLabel": "Distància",
+  "disableVisibilityManagement": true,
+  "saveEnabled": false,
+  "savePoints": false,
+  "drawGeodesic": false,
+  "saveLines": false,
+  "savePolys": false,
+  "selectionColor": "#60a1e6",
+  "snapshotEnabled": false,
+  "reportEnabled": false,
+  "reportSettings": {
+    "printTaskURL": "https://utility.arcgisonline.com/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task",
+    "footnote": "",
+    "logo": "${appPath}/widgets/SituationAwareness/images/defaultLogo.png",
+    "textColor": "#0f96cc"
+  }
+}

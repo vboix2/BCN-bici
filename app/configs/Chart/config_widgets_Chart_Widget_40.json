@@ -1,0 +1,271 @@
+{
+  "charts": [
+    {
+      "url": "",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [],
+        "expr": "1=1"
+      },
+      "description": "Quilòmetres de carril bici per districte",
+      "symbol": {
+        "color": [
+          79,
+          129,
+          189,
+          189
+        ],
+        "width": 1.5,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "webMapLayerId": "Carril_bici_1320",
+      "mode": "category",
+      "name": "Carril bici",
+      "highLightColor": "#ff0000",
+      "types": [
+        {
+          "type": "bar",
+          "display": {
+            "colors": [
+              "#5d9cd3"
+            ],
+            "showHorizontalAxis": true,
+            "showVerticalAxis": true,
+            "showLegend": false
+          }
+        }
+      ],
+      "categoryField": "districte",
+      "operation": "sum",
+      "valueFields": [
+        "longitud_k"
+      ],
+      "sortOrder": {
+        "isLabelAxis": false,
+        "isAsc": true
+      }
+    },
+    {
+      "url": "",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [],
+        "expr": "1=1"
+      },
+      "description": "Quilòmetres de vies pedalables per districte",
+      "symbol": {
+        "color": [
+          155,
+          187,
+          89,
+          255
+        ],
+        "width": 2.25,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "webMapLayerId": "Carrers_bici_4466",
+      "mode": "category",
+      "name": "Vies pedalables",
+      "highLightColor": "#ff0000",
+      "types": [
+        {
+          "type": "bar",
+          "display": {
+            "colors": [
+              "#5d9cd3"
+            ],
+            "showHorizontalAxis": true,
+            "showVerticalAxis": true,
+            "showLegend": false
+          }
+        }
+      ],
+      "categoryField": "districte",
+      "operation": "sum",
+      "valueFields": [
+        "longitud_k"
+      ],
+      "sortOrder": {
+        "isLabelAxis": false,
+        "isAsc": true
+      }
+    },
+    {
+      "url": "",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [],
+        "expr": "1=1"
+      },
+      "description": "Nombre d'estacions Bicing per districte",
+      "symbol": {
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriPMS",
+        "url": "https://static.arcgis.com/images/Symbols/Firefly/FireflyB7.png",
+        "imageData": "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",
+        "contentType": "image/png",
+        "width": 11.25,
+        "height": 11.25
+      },
+      "webMapLayerId": "Bicing_884",
+      "mode": "count",
+      "name": "Bicing: Nombre d'estacions",
+      "highLightColor": "#4f81bd",
+      "types": [
+        {
+          "type": "bar",
+          "display": {
+            "colors": [
+              "#5d9cd3",
+              "#eb7b3a",
+              "#a5a5a5",
+              "#febf29",
+              "#4673c2",
+              "#72ad4c"
+            ],
+            "showHorizontalAxis": true,
+            "showVerticalAxis": true,
+            "showLegend": false
+          }
+        }
+      ],
+      "categoryField": "districte",
+      "sortOrder": {
+        "isLabelAxis": false,
+        "isAsc": true
+      }
+    },
+    {
+      "url": "",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [],
+        "expr": "1=1"
+      },
+      "description": "Nombre de bicicletes disponibles per districte a les estacions de Bicing",
+      "symbol": {
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriPMS",
+        "url": "https://static.arcgis.com/images/Symbols/Firefly/FireflyB7.png",
+        "imageData": "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",
+        "contentType": "image/png",
+        "width": 11.25,
+        "height": 11.25
+      },
+      "webMapLayerId": "Bicing_884",
+      "mode": "category",
+      "name": "Bicing: Bicicletes disponibles",
+      "highLightColor": "#4f81bd",
+      "types": [
+        {
+          "type": "bar",
+          "display": {
+            "colors": [
+              "#5d9cd3"
+            ],
+            "showHorizontalAxis": true,
+            "showVerticalAxis": true,
+            "showLegend": false
+          }
+        }
+      ],
+      "categoryField": "districte",
+      "operation": "sum",
+      "valueFields": [
+        "bikes"
+      ],
+      "sortOrder": {
+        "isLabelAxis": false,
+        "isAsc": true
+      }
+    },
+    {
+      "url": "",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [],
+        "expr": "1=1"
+      },
+      "description": "Nombre de serveis per districte",
+      "symbol": {
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriPMS",
+        "url": "https://static.arcgis.com/images/Symbols/Firefly/FireflyB7.png",
+        "imageData": "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",
+        "contentType": "image/png",
+        "width": 11.25,
+        "height": 11.25
+      },
+      "webMapLayerId": "Serveis_1266",
+      "mode": "count",
+      "name": "Serveis",
+      "highLightColor": "#4f81bd",
+      "types": [
+        {
+          "type": "bar",
+          "display": {
+            "colors": [
+              "#5d9cd3"
+            ],
+            "showHorizontalAxis": true,
+            "showVerticalAxis": true
+          }
+        }
+      ],
+      "categoryField": "districte",
+      "sortOrder": {
+        "isLabelAxis": false,
+        "isAsc": true
+      }
+    },
+    {
+      "url": "",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [],
+        "expr": "1=1"
+      },
+      "description": "Aparcament per a bicicletes per districtes",
+      "symbol": {
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriPMS",
+        "url": "https://static.arcgis.com/images/Symbols/Firefly/FireflyB7.png",
+        "imageData": "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",
+        "contentType": "image/png",
+        "width": 11.25,
+        "height": 11.25
+      },
+      "webMapLayerId": "Aparcament_per_a_bicicletes_1667",
+      "mode": "count",
+      "name": "Aparcament per a bicicletes",
+      "highLightColor": "#4f81bd",
+      "types": [
+        {
+          "type": "bar",
+          "display": {
+            "colors": [
+              "#5d9cd3"
+            ],
+            "showHorizontalAxis": true,
+            "showVerticalAxis": true
+          }
+        }
+      ],
+      "categoryField": "districte",
+      "sortOrder": {
+        "isLabelAxis": false,
+        "isAsc": true
+      }
+    }
+  ]
+}

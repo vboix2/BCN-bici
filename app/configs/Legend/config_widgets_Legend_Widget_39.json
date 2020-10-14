@@ -1,0 +1,35 @@
+{
+  "legend": {
+    "arrangement": 0,
+    "autoUpdate": true,
+    "respectCurrentMapScale": true
+  },
+  "layerState": {
+    "Bicing_884": {
+      "selected": true
+    },
+    "Serveis_1266": {
+      "selected": true
+    },
+    "Punts_ancoratge_7778": {
+      "selected": true
+    },
+    "Carril_bici_1320": {
+      "selected": true
+    },
+    "Carril_bici__en_construcció__6053": {
+      "selected": true
+    },
+    "Carril_bici__altres_municipis__6123": {
+      "selected": true
+    },
+    "Vies_ciclables_7467": {
+      "selected": true
+    },
+    "Ronda_verda_8084": {
+      "selected": true
+    }
+  },
+  "syncWithWebmap": false,
+  "showLegendForBasemap": false
+}
