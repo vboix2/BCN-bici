@@ -9,7 +9,7 @@ L'ús generalitzat d'aquest mitjà de transport pot suposar una aportació signi
 Potenciar la mobilitat en bicicleta ajuda a reduir les emissions i la contaminació acústica, permet aconseguir unes ciutats més segures i sostenibles, i suposa una acció important per combatre el canvi climàtic.
 A més, la bicicleta promou la pràctica de l'esport i afavoreix una vida saludable, garantint la salut i el benestar dels ciutadans.
 
-"Barcelona en bicicleta" integra en un mapa interactiu tota la informació disponible sobre l'ús de la bicicleta a Barcelona.
+[Barcelona en bicicleta](https://storage.googleapis.com/barcelonaenbicicleta/index.html) integra en un mapa interactiu tota la informació disponible sobre l'ús de la bicicleta a Barcelona.
 El seu objectiu és mostrar l'estat actual de les vies i serveis per a bicicletes i, a la vegada, motivar l'ús d'aquest sistema de transport entre els seus ciutadans.
 
 La visualització permet explorar i analitzar la distribució de les vies per a ciclistes i tots aquells serveis relacionats amb la bicicleta.
